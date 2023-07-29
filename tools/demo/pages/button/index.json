@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "按钮",
+  "usingComponents": {
+    "y-button": "../../components/button"
+  }
+}

@@ -1,0 +1,2 @@
+<view class="item" bind:tap="toDetail" data-page="/pages/button/index">按钮</view>
+<view class="item" bind:tap="toDetail" data-page="/pages/icon/index">图标</view>

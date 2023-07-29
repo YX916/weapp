@@ -1,0 +1,72 @@
+.y-btn {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 0 27rpx;
+    height: 86rpx;
+    line-height: 86rpx;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    letter-spacing: 4rpx;
+    font-size: 28rpx;
+    font-weight: normal;
+    border-radius: 8rpx;
+    border: 2rpx solid transparent;
+    color: rgba(0, 0, 0, 0.88);
+    overflow: visible;
+    box-sizing: border-box;
+    background-color: transparent;
+    transition: opacity .16s, background-color .16s;
+
+    &.y-btn--block {
+        width: 100%;
+        display: block;
+    }
+
+    &.is-hover {
+        opacity: 0.8;
+    }
+
+    &.is-disabled {
+        opacity: 0.65;
+    }
+
+    &.is-round {
+        border-radius: 100rpx;
+    }
+
+    &.y-btn--large {
+        padding: 0 32rpx;
+        height: 96rpx;
+        line-height: 96rpx;
+        font-size: 32rpx;
+    }
+
+    &.y-btn--small {
+        padding: 0 18rpx;
+        height: 68rpx;
+        line-height: 68rpx;
+    }
+
+    &.y-btn--default {
+        background-color: #ffffff;
+        border-color: #d9d9d9;
+        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+    }
+
+    &.y-btn--primary {
+        color: #FFF;
+        border-color: transparent;
+        background-color: #1677ff;
+        box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+    }
+
+    &.y-btn--danger {
+        color: #FFF;
+        border-color: #d9d9d9;
+        background-color: #ff4d4f;
+        box-shadow: 0 2px 0 rgba(255, 38, 5, 0.06)
+    }
+}

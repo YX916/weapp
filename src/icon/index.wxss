@@ -1,0 +1,16 @@
+@import url(../assets/font/iconfont.wxss);
+
+.y-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: color .2s ease-in-out;
+
+    .y-icon__image {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        vertical-align: sub-text;
+        box-sizing: border-box;
+    }
+}

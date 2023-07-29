@@ -1,0 +1,2 @@
+<y-button type="danger" disabled  bind:click="tap">测试</y-button>
+<y-button type="danger" bind:click="tap">测试2</y-button>

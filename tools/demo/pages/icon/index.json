@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "图标",
+  "usingComponents": {
+    "y-icon": "../../components/icon"
+  }
+}
