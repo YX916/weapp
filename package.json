@@ -1,7 +1,7 @@
 {
   "name": "@yang-yong-xin/weapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "轻量、可靠的微信小程序 UI 组件库",
   "main": "dist/index.js",
   "scripts": {
     "dev": "gulp dev --develop",
@@ -30,8 +30,16 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/YX916/weapp"
   },
+  "homepage": "https://github.com/YX916",
+  "keywords": [
+    "ui",
+    "weixin",
+    "weapp",
+    "components",
+    "miniprogram"
+  ],
   "author": "杨永鑫",
   "license": "MIT",
   "devDependencies": {
