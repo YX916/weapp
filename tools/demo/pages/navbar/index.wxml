@@ -1,0 +1,3 @@
+<y-navbar title="自定义导航栏" loading back/>
+<y-button type="primary" bind:click="show">测试</y-button>
+<y-message id="y-message" useNavBar/>

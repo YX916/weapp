@@ -1,4 +1,4 @@
-<button class="y-btn {{'y-btn--'+type}} {{block? 'y-btn--block':''}} {{size? 'y-btn--'+size:''}} {{round? 'is-round':''}} {{disabled? 'is-disabled':''}}" 
- hover-class="{{ loading || disabled ? '' : plain ? 'is-plain--hover' : 'is-hover'}}" plain="true" bind:tap="onTap">
+<button class="y-btn {{'y-btn--'+type}} {{block? 'y-btn--block':''}} {{size? 'y-btn--'+size:''}} {{round? 'is-round':''}} {{disabled? 'is-disabled':''}} custom-class" 
+ hover-class="{{ loading || disabled ? '' : plain ? 'is-plain--hover' : 'is-hover'}}" bind:tap="onTap">
     <slot></slot>
 </button>

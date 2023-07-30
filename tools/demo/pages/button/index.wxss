@@ -1,0 +1,8 @@
+page {
+    margin: 40rpx;
+}
+
+.btn {
+    width: 670rpx;
+    margin-top: 30rpx;
+}

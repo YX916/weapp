@@ -1,3 +1,7 @@
+button::after {
+    border: none;
+}
+
 .y-btn {
     position: relative;
     display: inline-block;
@@ -13,7 +17,9 @@
     font-size: 28rpx;
     font-weight: normal;
     border-radius: 8rpx;
-    border: 2rpx solid transparent;
+    border-width: 2rpx;
+    border-style: solid;
+    border-color: transparent;
     color: rgba(0, 0, 0, 0.88);
     overflow: visible;
     box-sizing: border-box;
@@ -23,10 +29,6 @@
     &.y-btn--block {
         width: 100%;
         display: block;
-    }
-
-    &.is-hover {
-        opacity: 0.8;
     }
 
     &.is-disabled {
@@ -56,17 +58,51 @@
         box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
     }
 
+    &.y-btn--default.is-hover {
+        opacity: 0.8;
+    }
+
     &.y-btn--primary {
         color: #FFF;
         border-color: transparent;
-        background-color: #1677ff;
+        background-color: var(--y-primary-color, #1890ff);
         box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+    }
+
+    &.y-btn-primary.is-hover {
+        background-color: var(--y-primary-color-hover, #40a9ff);
+    }
+
+    &.y-btn--success {
+        color: #FFF;
+        border-color: #d9d9d9;
+        background-color: var(--y-success-color, #52c41a);
+        box-shadow: 0 2px 0 rgba(255, 38, 5, 0.06)
+    }
+
+    &.y-btn--success.is-hover {
+        background-color: var(--y-danger-color-hover, #73d13d);
+    }
+
+    &.y-btn--warning {
+        color: #FFF;
+        border-color: #d9d9d9;
+        background-color: var(--y-warning-color, #faad14);
+        box-shadow: 0 2px 0 rgba(255, 38, 5, 0.06)
+    }
+
+    &.y-btn--warning.is-hover {
+        background-color: var(--y-warning-color-hover, #ffc53d);
     }
 
     &.y-btn--danger {
         color: #FFF;
         border-color: #d9d9d9;
-        background-color: #ff4d4f;
+        background-color: var(--y-danger-color, #ff4d4f);
         box-shadow: 0 2px 0 rgba(255, 38, 5, 0.06)
+    }
+
+    &.y-btn--danger.is-hover {
+        background-color: var(--y-danger-color-hover, #ff7875);
     }
 }

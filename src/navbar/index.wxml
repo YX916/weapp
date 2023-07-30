@@ -1,0 +1,17 @@
+<view class="y-navbar-wrap" id="navbar" style="height: {{ navBarH }}px">
+  <view 
+    class="y-navbar is-fixed" 
+    style="padding-top: {{statusBarH}}px; height: {{navBarH-statusBarH}}px; {{ bgColorStyle }} {{ bgImageStyle }}">
+    <view wx:if="{{ back }}" class="back" bind:tap="BackPage">
+      <text class="back-icon" style="{{ 'background: ' + backColor }}"></text>
+    </view>
+    <view wx:if="{{ title }}" class="y-navbar-content {{ titleAlignClass }}" style="{{ titleColorStyle }}">
+      <view class="y-navbar-title">{{ title }}</view>
+      <view wx:if="{{ loading }}" class="spinner-snake"></view>
+    </view>
+    <view class="y-navbar-content" wx:else>
+      <slot />
+    </view>
+    <view wx:if="{{ back }}" class="back"></view>
+  </view>
+</view>

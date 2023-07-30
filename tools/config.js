@@ -14,7 +14,9 @@ const dist = path.resolve(__dirname, '../dist')
 module.exports = {
   entry: [
     'button/index',
-    'icon/index'
+    'icon/index',
+    'message/index',
+    'navbar/index'
   ],
 
   isDev,
@@ -91,5 +93,9 @@ module.exports = {
     }
   },
 
-  copy: ['./assets', './utils'], // 将会复制到目标目录
+  copy: [
+    './assets',
+    './message/message.js',
+    './utils'
+  ],
 }

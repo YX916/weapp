@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "y-navbar": "../../components/navbar",
+    "y-button": "../../components/button",
+    "y-message": "../../components/message"
+  },
+  "navigationStyle": "custom"
+}

@@ -1,0 +1,15 @@
+<view class="message-wrap">
+    <view class="message {{class}}" style="top: {{offsetTop}}px;">
+        <view class="message-icon">
+            <y-icon name="sync" color="#1989fa" size="30" wx:if="{{type=='loading'}}" custom-class="icon__loading"/>
+            <y-icon name="info-circle-fill" color="#1989fa" size="30" wx:if="{{type=='info'}}" />
+            <y-icon name="check-circle-fill" color="#07c160" size="30" wx:if="{{type=='success'}}" />
+            <y-icon name="warning-circle-fill" color="#ff976a" size="30" wx:if="{{type=='warning'}}" />
+            <y-icon name="close-circle-fill" color="#ee0a24" size="30" wx:if="{{type=='error'}}" />
+        </view>
+        <view class="message-text">
+            {{message}}
+        </view>
+    </view>
+</view>
+<view class="message-mask" wx:if="{{mask}}"></view>
