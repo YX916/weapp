@@ -36,7 +36,4 @@ page {
     --y-danger-color-deprecated-bg: #fff2f0;
     --y-danger-color-deprecated-border: #ffccc7;
     --y-info-color: #909399;
-
-
-    --y-input-background-color: #f0f2f5;
 }
