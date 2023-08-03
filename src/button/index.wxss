@@ -1,7 +1,3 @@
-button::after {
-    border: none;
-}
-
 .y-btn {
     position: relative;
     display: inline-block;
@@ -25,6 +21,10 @@ button::after {
     box-sizing: border-box;
     background-color: transparent;
     transition: opacity .16s, background-color .16s;
+
+    &::after {
+        border: none;
+    }
 
     &.y-btn--block {
         width: 100%;

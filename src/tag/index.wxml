@@ -1,0 +1,3 @@
+<view class=".y-tag custom-class {{ '.y-tag--' + size }} {{ round ? 'is-round' : '' }} {{ type ? '.y-tag--' + type : '' }} {{ plain ? 'is-plain' : '' }}" style="{{ plain ? 'color: ' + color : 'background-color: ' + color }}">
+  <slot />
+</view>

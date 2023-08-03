@@ -16,7 +16,8 @@ module.exports = {
     'button/index',
     'icon/index',
     'message/index',
-    'navbar/index'
+    'navbar/index',
+    'tag/index'
   ],
 
   isDev,

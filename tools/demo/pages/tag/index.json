@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "标签",
+  "usingComponents": {
+    "y-tag": "../../components/tag"
+  }
+}

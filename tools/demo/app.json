@@ -4,7 +4,8 @@
     "pages/button/index",
     "pages/icon/index",
     "pages/message/index",
-    "pages/navbar/index"
+    "pages/navbar/index",
+    "pages/tag/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
